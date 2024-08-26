@@ -1,0 +1,44 @@
+.price_coin {
+    margin-left: 5px;
+}
+
+.price_coin_disabled{
+    margin-left: 5px;
+    opacity: 0.5;
+}
+
+.coin_main {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.main_info_boosts {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 28px;
+    margin-right: 13px;
+    aspect-ratio: 1;
+    --c: no-repeat linear-gradient(orange calc(50% - 10px),#fff0 0 calc(50% + 10px),orange 0);
+    background: 
+      var(--c) 0%   100%,
+      var(--c) 50%  100%,
+      var(--c) 100% 100%;
+    background-size: 20% calc(200% + 20px);
+    animation:l4 1s infinite linear;
+  }
+  @keyframes l4 {
+      33%  {background-position: 0% 50%,50% 100%,100% 100%}
+      50%  {background-position: 0%  0%,50%  50%,100% 100%}
+      66%  {background-position: 0%  0%,50%   0%,100%  50%}
+      100% {background-position: 0%  0%,50%   0%,100%   0%}
+  }
+
