@@ -1,0 +1,19 @@
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 120px;
+    height: 20px;
+    -webkit-mask:linear-gradient(90deg,orange 70%,#0000 0) 0/20%;
+    background:
+     linear-gradient(orange 0 0) 0/0% no-repeat
+     #ddd;
+    animation: l4 2s infinite steps(6);
+  }
+  @keyframes l4 {
+      100% {background-size:120%}
+  }
+
+
+.text {
+    margin-top: 10px;
+    font-weight: 900;
+}

@@ -1,0 +1,140 @@
+
+
+body {
+    /* min-height: 100vh; */
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+.main {
+    
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.header {
+    text-align: center;
+}
+.balance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid hsla(0, 0%, 91%, .078);
+    border-radius: 12px;
+    padding: 26px 0;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.instructions {
+    color: rgba(235, 235, 245, .6);
+    text-align: center;
+}
+.friends-list {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 150px;
+}
+
+.invite-button-bg{
+    width: 100%;
+    height:  110px;
+    background-color: #000;
+    position: fixed;
+    bottom:0;
+}
+.invite-button {
+    bottom: 50px;
+    border-radius: 10px;
+    display: block;
+    position: fixed;
+    width: 75%;
+    height: 50px;
+    left: 5%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.avatar {
+    background: gray;
+    border-radius: 50px;
+    flex-shrink: 0;
+    height: 50px;
+    overflow: hidden;
+    position: relative;
+    width: 50px;
+    display: flex;
+  justify-content: center;
+align-items: center;
+}
+
+
+.letter {
+    font-size: 24px;
+    font-weight: 600;
+    
+}
+
+.title-frens {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.friend-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.friend-name {
+    font-weight: 600;
+    
+}
+
+.claim-btn {
+    background-color: #ffffff;
+    width: 120px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 19px;
+    color:#000;
+}
+
+.claim-btn-disabled {
+    background-color: #252525;
+    width: 120px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 19px;
+    color:#424242;
+}
+
+.claim-number {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copy {
+    bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 13%;
+    height: 50px;
+    left: 84%;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+}

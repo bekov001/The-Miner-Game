@@ -1,0 +1,84 @@
+
+
+.App-header{
+  touch-action: none;
+}
+
+/*   
+  .sun {
+    z-index: -2;
+    top: 20%;
+    position: absolute;
+    left: 15%;
+    border-radius:10%;
+    height:60%;
+    width:80%;
+    background:orange;
+    box-shadow: 0 0 10px orange,
+                  0 0 60px orange,
+                  0 0 200px yellow,
+                  inset 0 0 80px yellow;
+                  filter: blur(90px);
+  } */
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes pickaxe-start{
+    from {
+      
+      
+      
+    }
+    to {
+      transform: rotate(-95deg);
+    }
+  }
+  
+  
+  .game {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 30vh;
+  }
+  
+
+  
+  @media screen and (max-width: 1000px) {
+    .pickaxe-start {
+      transform: rotate(-30deg);
+      position: absolute;
+      user-select: none;
+      width: 110px;
+      height: 110px;
+      margin-left: -25px;
+    }
+  
+    .pickaxe-start.animate {
+      transform: rotate(-30deg);
+      animation-name: pickaxe-start;
+      animation-duration: 1s;
+      animation-iteration-count: 2;
+      animation-direction: alternate;
+    }
+  
+    .rock {
+      position: block;
+      user-select: none;
+      width: 180px;
+      height: 180px;
+    }
+    }
+    
+  
+
+  .clicks {
+    text-align: center;
+  }
+  
+
+.number {
+  position: absolute;
+}

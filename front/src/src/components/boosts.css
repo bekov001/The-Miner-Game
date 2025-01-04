@@ -1,0 +1,49 @@
+.main-info-boosts {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.holder {
+    background-color: rgba(110, 110, 110, 0.8);
+    border-radius:5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-holder {
+    background-color: rgba(100,100, 100,.5);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+
+
+.stars #first{
+    position: absolute;
+    top: 13%;
+    left: 75%;
+}
+
+.stars #second{
+    position: absolute;
+    left: 5%;
+}
+
+.stars #third{
+    position: absolute;
+    top: 70%;
+    left: 85%;
+}
